@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/hpcloud/tail.svg)](https://travis-ci.org/hpcloud/tail)
-[![Build status](https://ci.appveyor.com/api/projects/status/vrl3paf9md0a7bgk/branch/master?svg=true)](https://ci.appveyor.com/project/Nino-K/tail/branch/master)
-
 # Go package for tail-ing files
+
+Forked from: `github.com/hpcloud/tail`
+Changes: Updated dependency to: `github.com/fsnotify/fsnotify@v1.4.7`
 
 A Go package striving to emulate the features of the BSD `tail` program. 
 
@@ -21,8 +21,8 @@ designed to work with log rotation tools.
 
 ## Installing
 
-    go get github.com/hpcloud/tail/...
+    go get github.com/accupara/tail/...
 
 ## Windows support
 
-This package [needs assistance](https://github.com/hpcloud/tail/labels/Windows) for full Windows support.
+This package (still) [needs assistance](https://github.com/accupara/tail/labels/Windows) for full Windows support.

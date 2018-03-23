@@ -1,4 +1,8 @@
-# API v1 (gopkg.in/hpcloud/tail.v1)
+# API github.com/accupara/tail
+
+## Moved to github.com/fsnotify/fsnotify@v1.4.7
+
+## Previous: API v1 (gopkg.in/hpcloud/tail.v1)
 
 ## April, 2016
 
